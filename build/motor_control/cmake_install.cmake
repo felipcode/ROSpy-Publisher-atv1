@@ -1,8 +1,8 @@
-# Install script for directory: /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src/motor_control
+# Install script for directory: /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src/motor_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/motor_control/catkin_generated/installspace/motor_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/motor_control/catkin_generated/installspace/motor_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_control/cmake" TYPE FILE FILES
-    "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/motor_control/catkin_generated/installspace/motor_controlConfig.cmake"
-    "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/motor_control/catkin_generated/installspace/motor_controlConfig-version.cmake"
+    "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/motor_control/catkin_generated/installspace/motor_controlConfig.cmake"
+    "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/motor_control/catkin_generated/installspace/motor_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_control" TYPE FILE FILES "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src/motor_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/motor_control" TYPE FILE FILES "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src/motor_control/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/motor_control" TYPE PROGRAM FILES "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/motor_control/catkin_generated/installspace/control_node.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/motor_control" TYPE PROGRAM FILES "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/motor_control/catkin_generated/installspace/control_node.py")
 endif()
 

@@ -16,7 +16,7 @@ def control_node():
         pub.publish(pwm)
         rate.sleep()
         pwm.data = pwm.data + 1
-        if pwm.data >= 255:
+        if pwm.data > 255:
             pwm.data = 0
     return 0
     

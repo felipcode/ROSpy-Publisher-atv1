@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/gtest/googletest/cmake_install.cmake")
+  include("/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/gtest/googletest/cmake_install.cmake")
 
 endif()
 

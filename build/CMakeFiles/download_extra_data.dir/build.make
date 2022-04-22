@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src
+CMAKE_SOURCE_DIR = /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build
+CMAKE_BINARY_DIR = /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

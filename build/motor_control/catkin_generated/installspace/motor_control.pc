@@ -1,4 +1,4 @@
-prefix=/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/install
+prefix=/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/install
 
 Name: motor_control
 Description: Description of motor_control

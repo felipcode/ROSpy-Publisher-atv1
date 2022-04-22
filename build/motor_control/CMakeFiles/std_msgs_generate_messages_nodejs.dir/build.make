@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src
+CMAKE_SOURCE_DIR = /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build
+CMAKE_BINARY_DIR = /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build: std_msgs_g
 .PHONY : motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 
 motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/motor_control && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/motor_control && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/src/motor_control /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/motor_control /home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build/motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src/motor_control /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/motor_control /home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build/motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : motor_control/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

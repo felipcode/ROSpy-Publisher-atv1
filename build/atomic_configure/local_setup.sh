@@ -3,7 +3,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/devel}
+: ${_CATKIN_SETUP_DIR:=/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/devel}
 CATKIN_SETUP_UTIL_ARGS="--extend --local"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 unset CATKIN_SETUP_UTIL_ARGS

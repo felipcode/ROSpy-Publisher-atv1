@@ -7,4 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/build'
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib'
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
+export PWD='/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/build'
+export ROS_PACKAGE_PATH='/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/src:/opt/ros/noetic/share'

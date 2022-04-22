@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lip/robotics/ROS/atividades/atividade_22_04_ws/atv1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lip/robotics/ROS/atividades/atividades_22_04/atv1_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
